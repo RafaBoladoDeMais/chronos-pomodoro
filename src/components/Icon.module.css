@@ -1,0 +1,7 @@
+.error-text{
+    color: var(--error);
+}
+
+.default{
+    color: var(--primary)
+}

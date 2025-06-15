@@ -1,0 +1,12 @@
+.btn-primary{
+    background-color: var(--primary);
+}
+
+.red{
+    background-color: var(--error);
+    color: white;
+}
+.btn{
+    padding: .7rem;
+    font-size: 1rem;
+}
