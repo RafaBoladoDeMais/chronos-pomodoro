@@ -1,0 +1,15 @@
+.logo{
+    transition: all .7s ease-in-out;
+    color: var(--primary);
+    a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: inherit;
+    }
+}
+.logo:hover{
+    filter: brightness(78%);
+}

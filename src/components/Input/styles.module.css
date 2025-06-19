@@ -1,0 +1,42 @@
+.inputBox{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    gap:1rem;
+    input{
+        border: 1px solid transparent;
+        border-bottom: 1px solid var(--primary);
+        transition: border-radius .1s ease-in-out;
+        background:transparent;
+        padding: 1.3rem;
+        color:var(--text-default);
+        text-align: center;
+        font-size: 2rem;
+        outline: none;
+        /* border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem; */
+
+    }
+
+    label{
+        font-size: 1.8rem;
+    }
+}
+
+.inputBox input:focus{
+    border-radius: 1rem;
+    border: 1px solid var(--primary);
+
+    &::placeholder{
+        color: transparent;
+    }
+
+    
+}
+.inputBox input:disabled{
+    border-bottom: 0.2rem solid var(--disabled);
+    color:var(--text-muted);
+}
+

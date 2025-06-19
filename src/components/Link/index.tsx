@@ -1,4 +1,4 @@
-import style from "./Button.module.css";
+import style from "./Link.module.css";
 
 type IconType ={
     icon: React.ReactNode;
@@ -7,7 +7,7 @@ type IconType ={
     background?: string;
 }
 
-export function Button({icon, type, color, background}:IconType){
+export function Link({icon, type, color, background}:IconType){
     return(
         <button className={
             `${color == "red"?style.red:style['btn-primary']} ${style.btn} ${background?style[background]:""}`
