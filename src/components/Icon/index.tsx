@@ -6,7 +6,6 @@ type IconType = {
 }
 
 export function Icon({children}:IconType){
-    console.log("icon", children);
     return (
         <div>
             {children}
