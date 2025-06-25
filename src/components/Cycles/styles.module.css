@@ -19,17 +19,17 @@
 .dot{
     height: 2rem;
     width: 2rem;
-    background-color: var(--primary);
+    background-color: var(--warning);
     border-radius: 50%;
     transition: transform .1s ease-in-out;
 }
 .dot:hover{
     transform: scale(115%);
 }
-.shortTime{
-    background:var(--warning);
+.shortBreakTime{
+    background:var(--primary);
 }
 
-.longTime{
+.longBreakTime{
     background:var(--info);
 }
